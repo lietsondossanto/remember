@@ -1,0 +1,14 @@
+.form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select {
+    margin-left: -13px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 50px;
+}

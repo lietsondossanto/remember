@@ -1,0 +1,21 @@
+.conteudo{
+    margin-top: 50px;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.act{
+    background-color: rgba(45, 45, 45, 0.768);
+    margin-top: -30px;
+    margin-bottom: 20px;
+    border-radius: 05px;
+    height: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+.semana{
+    margin-top: -70px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remenber - Agenda</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/agenda.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand logotipo">
+                    <img src="img/logo_branco.png" alt="Logo Remenber">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="add.html">Adicionar actividade</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastrar.html">Cadastrar</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Actividades</h1>
+        <div class="navegacao-abas col-sm-12">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                <li><a href="#domingo" data-toggle="tab">Domingo</a></li>
+                <li><a href="#segunda" data-toggle="tab">Segunda-Feira</a></li>
+                <li><a href="#terca" data-toggle="tab">Terça-feira</a></li>
+                <li><a href="#quarta" data-toggle="tab">Quarta-feira</a></li>
+                <li><a href="#quinta" data-toggle="tab">Quinta-feira</a></li>
+                <li><a href="#sexta" data-toggle="tab">Sexta-feira</a></li>
+                <li><a href="#sabado" data-toggle="tab">Sábado</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-panel fade in active conteudo" id="home">
+                    <div class="act">
+                        <p>0 Actividade Registradas</p>
+                    </div>
+                    <p>Nenhuma Actividade Registrada</p>
+                </div> 
+
+                <div class="tab-pane fade semana conteudo" id="segunda">
+                    <p>Nenhuma Actividade Para Segunda-Feira</p>
+                </div>
+                
+                <div class="tab-pane fade semana conteudo" id="terca">
+                    <p>Nenhuma Actividade Para Terça-Feira</p>
+                </div>
+                
+                <div class="tab-pane fade semana conteudo" id="quarta">
+                    <p>Nenhuma Actividade Para Quarta-Feira</p>
+                </div>
+                
+                <div class="tab-pane fade semana conteudo" id="quinta">
+                    <p>Nenhuma Actividade Para Quinta-Feira</p>
+                </div>
+                
+                <div class="tab-pane fade semana conteudo" id="sexta">
+                    <p>Nenhuma Actividade Para Sexta-Feira</p>
+                </div>
+                
+                <div class="tab-pane fade semana conteudo" id="sabado">
+                    <p>Nenhuma Actividade Para Sábado</p>
+                </div>
+                
+                <div class="tab-pane fade semana conteudo" id="domingo">
+                    <p>Nenhuma Actividade Para Domingo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

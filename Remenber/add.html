@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar uma Actividade</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand logotipo">
+                    <img src="img/logo_branco.png" alt="Logo Remenber">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="agenda.html">Agenda</a></li>
+                    <li><a href="add.html">Adicionar actividade</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastrar.html">Cadastrar</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <fieldset  class="form">
+        <legend>Cadastrar nova Actividade</legend>
+        <form action="/add" method="POST" class="form-control col-xs-4">
+            <div class="row">
+                <div class="form-group col-sm-5 col-xs-12">
+                    <label for="ssemana">Selecione o dia da semana</label>
+                    <select id="ssemana" class="form-control text-left">
+                        <option value="1" selected>Domingo</option>
+                        <option value="2">Segunda-Feira</option>
+                        <option value="3">Terça-Feira</option>
+                        <option value="4">Quarta-Feira</option>
+                        <option value="5">Quinta-Feira</option>
+                        <option value="5">Sexta-Feira</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-5 col-xs-12 text-left">
+                    <label for="sactividade">Selecione a categoria do evento</label>
+                    <select id="sactividade" class="form-control text-left">
+                        <option value="1" selected>Festa</option>
+                        <option value="2">Trabalho</option>
+                        <option value="3">Activida Particular</option>
+                        <option value="4">Relaxar</option>
+                        <option value="5">Relaxar com os amigos</option>
+                        <option value="5">Saidas</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12">
+                    <label for="descricao">Descrição do evento</label>
+                    <textarea name="descricoa" class="form-control" id="descricao" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="button text-right">
+                <button type="reset" class="btn btn-danger">Limpar</button>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </fieldset>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

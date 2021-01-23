@@ -1,0 +1,13 @@
+.titulo {
+    font-family: "cooper black", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.corpo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.rodape {
+    margin-top: 100px;
+}
